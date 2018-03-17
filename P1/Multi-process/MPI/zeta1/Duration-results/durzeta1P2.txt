@@ -1,3 +1,6 @@
+Duration for P=2 processors and k=1,...,24 where n=2^k
+
+k duration
 1 2.28882e-05
 2 3.8147e-06
 3 1.90735e-06
