@@ -1,3 +1,6 @@
+Duration for P=8 processors and k=1,...,24 where n=2^k
+
+k duration
 1 0.00051403
 2 2.90871e-05
 3 2.69413e-05
