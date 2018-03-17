@@ -1,3 +1,6 @@
+Error for P=8 processors and k=1,...,24 where n=2^k
+
+k error
 1 0.40298
 2 0.21898
 3 0.114295
