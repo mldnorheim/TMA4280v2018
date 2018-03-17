@@ -1,3 +1,6 @@
+Log of error for P=2 processors and k=1,...,24 where n=2^k
+
+k log(error)
 1 -6.912140616802772364e+00
 2 -1.394174564452762688e+01
 3 -2.745656107032124993e+01
