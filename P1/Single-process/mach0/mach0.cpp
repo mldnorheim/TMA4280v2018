@@ -13,21 +13,17 @@ using namespace std;
 void mach0(int n, int type)      // MACHIN:
 {
 
-  //  int type;
-  //  int n;
-
-
     double SnM5 = 0.0;
     double SnM239 = 0.0;
     for(int j=1; j<=n; j++){
         // x=1/5
         double vjx5 = pow(-1.0,j-1) * pow(1.0/5.0,2.0*j-1) / (2.0*j-1.0);
-        //cout << vjx5 << endl;
+        
         SnM5 += vjx5;
 
         // x=1/239
         double vjx239 = pow(-1.0,j-1) * pow(1.0/239.0,2.0*j-1) / (2.0*j-1.0);
-        //cout << vjx239 << endl << "---" << endl;
+        
         SnM239 += vjx239;
     }
     double piM = 4.0*(4.0*SnM5 - SnM239);
@@ -74,9 +70,9 @@ void mach0(int n, int type)      // MACHIN:
             PIM = 4.0*(4.0*SNM5 - SNM239);
             errorM[k] = fabs(pi-PIM);
             out_data << k << " " << scientific << setprecision(18) << log(fabs(pi-PIM)) << endl;
-            //cout << "n = " << N << ", |pi-pi_n_mach| = " << abs(pi-PIM) << endl;
+            cout << "n = " << N << ", |pi-pi_n_mach| = " << abs(pi-PIM) << endl;
         }
-        //cout << "The errors for Machin and different N's are: " << errorM << endl;
+        cout << "The errors for Machin and different N's are: " << errorM << endl;
     }
 
 }
