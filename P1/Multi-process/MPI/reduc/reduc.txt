@@ -1,0 +1,18 @@
+Reduc (n=100):
+--------------------------------------------------------
+Zeta1 with MPI_Allreduce: 
+  piR=3.132077e+00 
+  errorR=9.516122e-03 
+  durationR=3.176928e-03 
+Zeta1 with recursive-doubling sum:
+  piR=3.132077e+00 
+  errorR=9.516122e-03 
+  durationR=7.104874e-05 
+Mach1 with MPI_Allreduce:
+  piM=3.141593e+00 
+  errorM=4.440892e-16 
+  durationM=7.009506e-05 
+Mach1 with recursive-doubling sum:
+  piM=1.256637e+01 
+  errorM=9.424778e+00 
+  durationM=8.201599e-05
