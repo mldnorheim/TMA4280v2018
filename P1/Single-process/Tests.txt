@@ -1,0 +1,12 @@
+Test (serial implementation):
+--------------------------------------------------------
+Riemann approximates pi as: 2.449490e+00
+Machin approximates pi as: 3.183263598326360e+00
+
+
+Unit test:
+--------------------------------------------------------
+Rieman unit test with n=3 gives approximation: 2.857738e+00
+and the difference is: -4.082483e-01
+Machin unit test with n=3 gives approximation: 3.141621029325034e+00
+and the difference is: 4.164256900132646e-02
