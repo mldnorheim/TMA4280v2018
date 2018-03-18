@@ -10,3 +10,6 @@ Rieman unit test with n=3 gives approximation: 2.857738e+00
 and the difference is: -4.082483e-01
 Machin unit test with n=3 gives approximation: 3.141621029325034e+00
 and the difference is: 4.164256900132646e-02
+
+
+(Verification tests included in zeta0 and mach0 folders)
