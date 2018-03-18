@@ -1,0 +1,46 @@
+Test (serial implementation):
+--------------------------------------------------------
+Riemann approximates pi as: 2.449490e+00
+Machin approximates pi as: 3.183263598326360e+00
+
+
+Unit test:
+--------------------------------------------------------
+Rieman unit test with n=3 gives approximation: 2.857738e+00
+and the difference is: -4.082483e-01
+Machin unit test with n=3 gives approximation: 3.141621029325034e+00
+and the difference is: 4.164256900132646e-02
+
+
+Reduc (n=100):
+--------------------------------------------------------
+Zeta1 with MPI_Allreduce: 
+  piR=3.132077e+00 
+  errorR=9.516122e-03 
+  durationR=3.176928e-03 
+Zeta1 with recursive-doubling sum:
+  piR=3.132077e+00 
+  errorR=9.516122e-03 
+  durationR=7.104874e-05 
+Mach1 with MPI_Allreduce:
+  piM=3.141593e+00 
+  errorM=4.440892e-16 
+  durationM=7.009506e-05 
+Mach1 with recursive-doubling sum:
+  piM=1.256637e+01 
+  errorM=9.424778e+00 
+  durationM=8.201599e-05
+
+
+Hybrid:
+--------------------------------------------------------
+Zeta:
+  piR=3.132077e+00 
+  errorR=9.516122e-03 
+  durationR=1.337981e-02 
+Mach:
+  piM=3.141593e+00 
+  errorM=8.881784e-16 
+  durationM=1.138902e-02 
+
+
