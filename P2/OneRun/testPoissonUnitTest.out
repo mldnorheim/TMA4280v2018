@@ -1,0 +1,21 @@
+Test1: before MPI is initialized
+Test1: before MPI is initialized
+Test1: before MPI is initialized
+Test1: before MPI is initialized
+Test2: MPI-start
+Test3: After blocksize, domsum etc
+Test4: after declaring matrices and vectors
+Test5: before pragma-block
+Test6: in pragma-block, after step1 in algorithmTest6: in pragma-block, after step1 in algorithm
+
+Test7: in pragma-block, after step2 in algorithm
+Test7: in pragma-block, after step2 in algorithm
+Test8: in pragma-block, after step3 in algorithm
+Test8: in pragma-block, after step3 in algorithm
+For n=5, P=4 and t=2 we get:
+ u_max=1.648528e-02
+ timing=2.174454e-02
+ greatest error=5.706362e-03
+Test9: in pragma-block, after computing and printing max.values and timings
+Test9: in pragma-block, after computing and printing max.values and timings
+Test10: after pragma-block and MPI_Finalize
